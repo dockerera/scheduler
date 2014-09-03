@@ -1,3 +1,6 @@
+# TODO:
+Integrate Docker-GEN
+
 # Intro and Why?
 
 So about a year ago dotcloud came out with a magical piece of software called Docker.io; a Go-lang wrapper to The Linux Container Engine (LXC). The first time I saw this I immediately jumped onto the Docker band wagon. Why, because the idea is amazing. I had one problem with it though, due to the way Docker set's up your containers. Uou either have to setup your containers using their container linking solution which puts all the container ip's into environment variables or use a service discovery tool like Skydock with Skydns. Both of whihch are Docker containers themselves and required a pre-configuration process.
